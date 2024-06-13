@@ -1,0 +1,153 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CarrinhoDeCompras",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.listas.CarrinhoDeCompras",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "ListaTarefas",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.listas.ListaTarefas",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "Inter",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.interfaces.fabrica.Inter",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "PCJulia",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.polimorfismo.PCJulia",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "PCJulia",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.abstracao.PCJulia",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "PCJulia",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.encapsulamento.PCJulia",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "FormatadorCep",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.excecao.FormatadorCep",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "ExemploExcecao",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.excecao.ExemploExcecao",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "Teste",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.estruturacondicional.Teste",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "ExemploDoWhile",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.estruturacondicional.ExemploDoWhile",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "ExemploWhile",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.estruturacondicional.ExemploWhile",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "Rapeticao",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.estruturacondicional.Rapeticao",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "CaixaEletronico",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.estruturacondicional.CaixaEletronico",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "CaixaEletronico",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.estruturarepeticao.CaixaEletronico",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "Scaner",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.sintaxe.Scaner",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Argumentos",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.sintaxe.Argumentos",
+            "args": [
+                "Jane",
+                "Sampaio",
+                "38",
+                "1.76"
+            ],
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "Operadores",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.sintaxe.Operadores",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "TiposVariaveis",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.sintaxe.TiposVariaveis",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.sintaxe.Usuario",
+            "projectName": "java-santander-project_87bb283"
+        }
+    ]
+}
