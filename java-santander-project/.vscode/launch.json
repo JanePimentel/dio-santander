@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OrdenacaoNumeros",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.collections.listas.ordenacao.OrdenacaoNumeros",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "OrdenacaoNumeros",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.listas.ordenacao.OrdenacaoNumeros",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "OrdenacaoPessoa",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.listas.ordenacao.OrdenacaoPessoa",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "CatalogoLivros",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.listas.pesquisa.CatalogoLivros",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "CatalogoLivros",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.listas.ordenacao.CatalogoLivros",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
             "name": "CarrinhoDeCompras",
             "request": "launch",
             "mainClass": "br.edu.trilhajava.bootcamp.listas.CarrinhoDeCompras",

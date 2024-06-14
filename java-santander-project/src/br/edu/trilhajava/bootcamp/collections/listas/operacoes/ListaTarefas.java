@@ -1,4 +1,4 @@
-package br.edu.trilhajava.bootcamp.listas.operacoes;
+package br.edu.trilhajava.bootcamp.collections.listas.operacoes;
 
 import java.util.ArrayList;
 import java.util.List;
