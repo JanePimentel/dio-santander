@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "GerenciadorAluno",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.collections.set.ordenacao.GerenciadorAluno",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "CadastroProdutos",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.collections.set.ordenacao.CadastroProdutos",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "AgendaContatos",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.collections.set.pesquisa.AgendaContatos",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "ConjuntoPalavrasUnicas",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.collections.set.operacoesbasicas.ConjuntoPalavrasUnicas",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "ConjuntoConvidados",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.collections.set.operacoesbasicas.ConjuntoConvidados",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
             "name": "OrdenacaoNumeros",
             "request": "launch",
             "mainClass": "br.edu.trilhajava.bootcamp.collections.listas.ordenacao.OrdenacaoNumeros",
