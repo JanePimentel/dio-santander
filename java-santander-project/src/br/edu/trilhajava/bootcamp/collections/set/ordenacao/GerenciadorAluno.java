@@ -39,7 +39,7 @@ public class GerenciadorAluno {
     public void exibirAlunosPorNome() {
         Set<Aluno> alunosSetOrdenadoPorNome = new TreeSet<>(alunosSet);
         if (!alunosSet.isEmpty()) {
-            System.out.println(alunosSetOrdenadoPorNome);
+            System.out.println(alunosSetOrdenadoPorNome);   
         } else {
             throw new RuntimeException("O conjunto está vazio!");
         }

@@ -1,14 +1,18 @@
 package br.edu.trilhajava.bootcamp.collections.map.ordenacao;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.NoSuchElementException;
+import java.util.Set;
 import java.util.TreeMap;
+import java.util.TreeSet;
 
 import br.edu.trilhajava.bootcamp.collections.set.ordenacao.ComparatorPorNota;
 
@@ -25,11 +29,14 @@ public class LivrariaOnline {
     }
 
     public void removerLivro(String titulo) {
-        for (Map.Entry<String, Livro> entry : livraria.entrySet()) {
+        Iterator<Map.Entry<String, Livro>> iterator = livraria.entrySet().iterator();
+        while (iterator.hasNext()) {
+            Map.Entry<String, Livro> entry = iterator.next();
             if (entry.getValue().getTitulo().equalsIgnoreCase(titulo)) {
-                livraria.remove(entry.getKey());
+                iterator.remove();  // Remove o elemento usando o Iterator
             }
         }
+        
     }
 
     public Map<String, Livro> exibirLivrosOrdenadosPorPreco() {
@@ -127,7 +134,12 @@ public class LivrariaOnline {
         System.out.println(livraria.exibirLivrosOrdenadosPorAutor("Autor 1"));
         System.out.println(livraria.obterLivrosMaisCaros());    
         System.out.println(livraria.obterLivrosMaisBaratos());
-
+        livraria.removerLivro("Livro 6");
+        livraria.exibirLivros();
+List<Character> consoantesMeuNome = Arrays.asList('c', 'm', 'l', 'c', 'v', 'l', 'c', 'n', 't');
+System.out.println(consoantesMeuNome);
+Set<String> coresDaBandeiraDoBrasil = new TreeSet<>(Arrays.asList("verde", "amarelo", "azul", "branco"));
+System.out.println(coresDaBandeiraDoBrasil);
 
     }
 }

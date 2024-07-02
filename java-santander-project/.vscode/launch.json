@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Exercicios",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.stream.exercicios.Exercicios",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "OptionalExemplo",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.stream.interface_funcional.OptionalExemplo",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "BinaryOperatorExemplo",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.stream.interface_funcional.BinaryOperatorExemplo",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "PredicateExemplo",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.stream.interface_funcional.PredicateExemplo",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "FunctionExemplo",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.stream.interface_funcional.FunctionExemplo",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "SupplierExemplo",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.stream.interface_funcional.SupplierExemplo",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
+            "name": "ConsumerExemplo",
+            "request": "launch",
+            "mainClass": "br.edu.trilhajava.bootcamp.stream.interface_funcional.ConsumerExemplo",
+            "projectName": "java-santander-project_87bb283"
+        },
+        {
+            "type": "java",
             "name": "LivrariaOnline",
             "request": "launch",
             "mainClass": "br.edu.trilhajava.bootcamp.collections.map.ordenacao.LivrariaOnline",
