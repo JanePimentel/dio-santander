@@ -1,10 +1,10 @@
-package br.edu.trilhajava.bootcamp.collections.set.ordenacao;
+    package br.edu.trilhajava.bootcamp.collections.set.ordenacao;
 
-import java.util.Comparator;
+    import java.util.Comparator;
 
-public class ComparatorPorNota implements Comparator<Aluno>{
-    @Override
-    public int compare(Aluno a1, Aluno a2) {
-        return Double.compare(a1.getNota(), a2.getNota());
+    public class ComparatorPorNota implements Comparator<Aluno>{
+        @Override
+        public int compare(Aluno a1, Aluno a2) {
+            return Double.compare(a1.getNota(), a2.getNota());
+        }
     }
-}
